@@ -11,6 +11,7 @@ public static void main(String[] args) {
 			System.out.println("Scrivi un codice alfanumerico (può contenere anche simboli)");
 			
 			String input = in.nextLine();
+			in.close();
 			char[] inputArray = input.toCharArray();
 			
 			int lettersCount = 0;
